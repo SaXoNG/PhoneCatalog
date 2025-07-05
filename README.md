@@ -37,7 +37,7 @@ Experience the live website:  [PhoneCatalog](https://saxong.github.io/PhoneCatal
 
 ## 🛠️ Tech Stack
 - #### Frontend: React, TypeScript, SCSS (CSS Modules), Vite
-- #### Routing: React Router
+ #### Routing: React Router
 - #### State Management: React Context API
 - #### Styling: Bulma, SCSS Modules, custom themes
 - #### Icons: FontAwesome
