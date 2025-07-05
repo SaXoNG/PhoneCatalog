@@ -1,21 +1,29 @@
-import React from 'react';
+import './i18n';
 import './App.scss';
+import './styles/fonts.scss';
+import { Outlet } from 'react-router-dom';
+import { NavBar } from './components/NavBar';
+import { Footer } from './components/Footer';
+import { ProductsProvider } from './context/ProductsContext';
 
-interface Props {
-  onClick: () => void;
-  children: React.ReactNode;
-}
+import { createContext, useContext } from 'react';
 
-export const Provider: React.FC<Props> = React.memo(({ onClick, children }) => (
-  <button type="button" onClick={onClick}>
-    {children}
-  </button>
-));
+export const DataContext = createContext(null);
 
-export const App: React.FC = () => {
+export const useData = () => useContext(DataContext);
+
+export const App = () => {
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>TodoList</Provider>
+    <div className="app">
+      <ProductsProvider>
+        <NavBar />
+
+        <div className="main">
+          <Outlet />
+        </div>
+      </ProductsProvider>
+
+      <Footer />
     </div>
   );
 };
