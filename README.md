@@ -3,6 +3,7 @@ A modern, responsive e-commerce catalog built with React and TypeScript. This pr
 
 ## Live Demo
 Experience the live website:  [PhoneCatalog](https://saxong.github.io/PhoneCatalog/);
+
 ## ✨ Features
 ### Home Page:
 - Dynamic product sliders for "Hot Prices" and "Brand New" items
@@ -44,29 +45,34 @@ Experience the live website:  [PhoneCatalog](https://saxong.github.io/PhoneCatal
 - #### Testing: Cypress
 - #### Utilities: i18next, classnames
 - #### Build & Deploy: Vite, GitHub Pages
-📦 Data & Assets
+
+## 📦 Data & Assets
 Product data and images are served from the /public/api and /public/img folders.
 Easily extensible for new categories or product types.
-🚀 Getting Started
-Clone the repo:
+
+## 🚀 Getting Started
+### Clone the repo:
 git clone https://github.com/SaXoNG/PhoneCatalog.git
-Install dependencies:
+### Install dependencies:
 npm install
-Run the app locally:
+### Run the app locally:
 npm start
-Build for production:
+### Build for production:
 npm run build
-Run tests:
+### Run tests:
 npm test
-🖼️ UI/UX
+
+## 🖼️ UI/UX
 Based on Figma designs-Original) with multiple color themes and dark mode support.
 Smooth hover effects, transitions, and responsive layouts.
-📚 Project Structure
+
+## 📚 Project Structure
 src/components/ – Reusable UI components (ProductCard, ProductList, NavBar, etc.)
 src/modules/ – Page-level modules (HomePage, Cart, Favourites, etc.)
 src/context/ – React Contexts for global state (cart, favorites, products)
 public/api/ – Product data in JSON format
 public/img/ – Product and category images
-📝 License
+
+## 📝 License
 This project is licensed under the GPL-3.0 License.
 Feel free to personalize this further with your name, contact info, or additional sections (e.g., "About Me" or "What I Learned"). Let me know if you want a shorter version or want to highlight specific features!
