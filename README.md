@@ -1,4 +1,4 @@
-📱 React Product Catalog
+📱 React Product Catalog -
 A modern, responsive e-commerce catalog built with React and TypeScript. This project showcases a fully functional product catalog with shopping cart, favorites, filtering, sorting, and more—perfect for your portfolio!
 
 Live Demo
