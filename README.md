@@ -36,14 +36,14 @@ Experience the live website:  [PhoneCatalog](https://saxong.github.io/PhoneCatal
 - Internationalization (i18n) ready
 
 ## 🛠️ Tech Stack
-### Frontend: React, TypeScript, SCSS (CSS Modules), Vite
-Routing: React Router
-State Management: React Context API
-Styling: Bulma, SCSS Modules, custom themes
-Icons: FontAwesome
-Testing: Cypress
-Utilities: i18next, classnames
-Build & Deploy: Vite, GitHub Pages
+- #### Frontend: React, TypeScript, SCSS (CSS Modules), Vite
+- #### Routing: React Router
+- #### State Management: React Context API
+- #### Styling: Bulma, SCSS Modules, custom themes
+- #### Icons: FontAwesome
+- #### Testing: Cypress
+- #### Utilities: i18next, classnames
+- #### Build & Deploy: Vite, GitHub Pages
 📦 Data & Assets
 Product data and images are served from the /public/api and /public/img folders.
 Easily extensible for new categories or product types.
