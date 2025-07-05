@@ -3,7 +3,7 @@ A modern, responsive e-commerce catalog built with React and TypeScript. This pr
 
 # Live Demo
 Experience the live website:  [PhoneCatalog](https://saxong.github.io/PhoneCatalog/);
-✨ Features
+# ✨ Features
 Home Page:
 Dynamic product sliders for "Hot Prices" and "Brand New" items
 Category navigation (Phones, Tablets, Accessories)
